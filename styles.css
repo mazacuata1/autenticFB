@@ -204,6 +204,13 @@ button.loading {
     display: block;
 }
 
+#imageCaption {
+    display: none;
+    text-align: center;
+    font-size: 1.2em; /* Ajusta el tamaño de fuente según tus preferencias */
+    margin-top: 5px; /* Ajusta el margen superior según tus preferencias */
+}
+
 /* Estilos para pantallas pequeñas y smartphones */
 @media (max-width: 600px) {
     #foryuFigure {
