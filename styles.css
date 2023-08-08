@@ -183,3 +183,34 @@ footer div {
 button.loading {
     animation: loading 1s infinite;
 }
+
+
+#foryuFigure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#foryuImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+#foryuFigure:hover #imageCaption {
+    display: block;
+}
+
+/* Estilos para pantallas pequeñas y smartphones */
+@media (max-width: 600px) {
+    #foryuFigure {
+        margin-top: 10px; /* Reducir el margen superior en pantallas pequeñas */
+    }
+  
+    #foryuImage {
+        margin-bottom: 5px; /* Reducir el margen inferior en pantallas pequeñas */
+    }
+}
